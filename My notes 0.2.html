@@ -5,12 +5,28 @@
 </title>
 <style>
 .red{background-color: red;}
+.black{background-color:black;}
 H2{font-family: arial;}
 .square{list-style: square;}
+.box{width: 100px; height: 100px;}
+.container{width: 200px; border: 5px solid black; display: flex;flex-wrap: wrap;}
+.outer{width:50%; height: 100px; display: flex; flex-direction: row; justify-content: space-evenly;align-items: center ;border: 5px solid black;}
+.inner{width: 30%;}
+.blue{background-color: blue;}
+.green{background-color: chartreuse;}
+.orangr{background-color: orangered
+;}
+#one{order:1;}
+#two{order: 2;}
+#three{order: 3;}
+.flex{display: flex;
+justify-content: center;}
 </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display SC">
 </head>
 <body>
-<h1 style="text-align:center; color:blue">Welcome to my notes 0.2 version</h1>
+<h1 style="text-align:center; color:blue; font-family: Cinzel; font-size: 48px;">Welcome to my notes 0.2 version</h1>
 I have already made another my notes file, but I have decided to make a new, remastered and better one I call it <mark><strong>My notes 0.2</strong></mark>.
 <h2 class=red>You will find here:</h2>
 <ul class="square">
@@ -37,7 +53,9 @@ I have already made another my notes file, but I have decided to make a new, rem
 </ul>
 </ol>
 Here take a break from reading with this cat pic<br>
+<div class="flex">
 <img src="https://image.shutterstock.com/image-photo/cat-wearing-sunglasses-relaxing-sitting-600w-639551509.jpg" alt="cat pic" width="600" height="400">
+</div>
 <h2 class=red>Some useful links</h2>
 <ul>
 <li><a href="https://loremipsum.io/generator/?n=1&t=p" target="_blank">Lorem Ipsum</a>
@@ -45,9 +63,15 @@ Here take a break from reading with this cat pic<br>
 </ul>
 <h2 class=red>How to contact me:</h2>
 <ul>
-<li><a href="https://www.facebook.com/profile.php?id=100068385291906" target="_blank">facebook</a>
+<li><a href="https://www.facebook.com/profile.php?id=100068385291906" target="_blank">Facebook</a>
 <li><strong>Mail:</strong> wahbasuliman4@gmail.com
 </ul>
+<h1 style="text-align: center; color: red; font-weight: bolder; text-decoration: underline; font-size: 50px; font-family: Playfair Display SC ;">Warning you are entering test zone</h1>
+<div class="outer">
+<div class="blue inner" id="three" style="text-align: center; font-size: 80px;">one</div>
+<div class="green inner" id="one" style="text-align: center; font-size: 80px;">two</div>
+<div class="orangr inner" id="two" style="text-align: center; font-size: 80px;">three</div>
+</div>
 </body>
 </html>
 
